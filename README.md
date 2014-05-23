@@ -52,7 +52,7 @@ The function that performs this step is:
 
 The method for determining which features/measurements to extract is to `regex` on the measurement variable names (as defined in the HAR data set's *features.txt* file) and subset on names that contain `-mean()` or `-std()`. Note that this eliminates the `*-meanFreq()` measurements/variables on the assumption that, since there is no corresponding standard deviation measurement for the variable, the `*-meanFreq()` variables should be excluded, which satisfies Course Project requirement #2:
 
-* *Extracts only the measurements on the mean and standard deviation for each measurement.*
+* Extracts only the measurements on the mean and standard deviation for each measurement.
 
 #### Step 3
 
@@ -83,6 +83,14 @@ The function that performs this step is:
 This step satisfies Course Project requirements #5:
 
 * Creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+
+### Versions and Packages Used
+
+**R Version:** 3.0.3 (2014-03-06) a.k.a Warm Puppy
+
+####Packages:
+* plyr 1.8.1
+* data.table 1.9.1
  
 ### Complete List of Analysis Functions
 
@@ -104,13 +112,7 @@ This step satisfies Course Project requirements #5:
 
 **run_analysis** - Runs the complete analysis, including (optionally) downloading the data set from source.
 
-### Versions and Packages Used
 
-**R Version:** 3.0.3 (2014-03-06) a.k.a Warm Puppy
-
-####Packages:
-* plyr 1.8.1
-* data.table 1.9.1
 
 
 
