@@ -68,6 +68,7 @@ The function that performs this step is:
  
 This step satisfies Course Project requirements #1, #2 (in combination with **Step 2**), #3 and #4:
 
+* Merges the training and the test sets to create one data set.
 * Extracts only the measurements on the mean and standard deviation for each measurement. 
 * Uses descriptive activity names to name the activities in the data set
 * Appropriately labels the data set with descriptive activity names. 
