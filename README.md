@@ -14,7 +14,7 @@ The main analysis, which creates the second tidy data set (as defined by the ass
 
 To download the raw HAR data from source, set `download.data = TRUE`. To change the root directory of where the data set resides (or where it should be placed if downloaded from source), set the `directory` parameter to the desired directory.
 
-A data.frame containing the second tidy data set, as defined in CodeBook.md, is returned. The same data set is also saved as a CSV file, named *HAR_Tidy_Summarized.csv*, to the working directory.
+A data.frame containing the second tidy data set, as defined in CodeBook.md, is returned. The same data set is also saved as a CSV format file, named *HAR_Tidy_Summarized.txt*, to the working directory.
 
 If the first (unsummarized) tidy data set is of interest, it can be created independently as follows:
 

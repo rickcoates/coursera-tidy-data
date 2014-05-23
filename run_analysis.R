@@ -65,7 +65,7 @@ run_analysis <- function(download.data = F, directory = "UCI HAR Dataset") {
   message("creating the second tidy data set (summarizing the first tidy data set)...")
   second.tidy.data.set <- CreateSecondTidyDataSet(tidy.data)
   message("writing out the second tidy data set to the working directory...")
-  write.csv(second.tidy.data.set,"HAR_Tidy_Summarized.csv")
+  write.csv(second.tidy.data.set,"HAR_Tidy_Summarized.txt")
   second.tidy.data.set
 }
 
